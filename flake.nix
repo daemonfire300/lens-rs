@@ -42,7 +42,7 @@
             src = ./.;
           };
           pname = "macro-lens-workspace";
-          version = "2.0.0";
+          version = "2.0.1";
           strictDeps = true;
         };
         cargoArtifacts = craneLib.buildDepsOnly (
